@@ -12,7 +12,8 @@ WHERE b.id IS NULL
         foreign key (book_id) references book (id)
             on delete cascade;`
             
-#разворачивание проекта
+# разворачивание проекта
+
 в файле `.env` указать переменные окружения UID, GID. 
 Их можно узнать выполнив команду `id`. Далее
 
